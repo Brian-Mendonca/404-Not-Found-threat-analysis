@@ -31,33 +31,22 @@ methodology.
 
 ## **Repository Structure**
 
+```
 404-Not-Found-threat-analysis/
-
 ├── README.md
-
 ├── prompt-logs/
-
-│ ├── abdiel-prompts.md
-
-│ ├── ashwin-prompts.md
-
-│ ├── jay-prompts.md
-
-│ ├── shekar-prompts.md
-
-│ └── vansh-prompts.md
-
+│   ├── abdiel-prompts.md
+│   ├── ashwin-prompts.md
+│   ├── jay-prompts.md
+│   ├── shekar-prompts.md
+│   └── vansh-prompts.md
 ├── report/
-
-│ └── threat-report.pdf
-
+│   └── threat-report.pdf
 └── sprint-docs/
-
-├── backlog.md
-
-├── meeting-notes.md
-
-└── retrospective.md
+    ├── backlog.md
+    ├── meeting-notes.md
+    └── retrospective.md
+```
 
 
 ## **Sprint Timeline**
