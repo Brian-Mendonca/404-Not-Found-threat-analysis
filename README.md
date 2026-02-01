@@ -13,7 +13,7 @@ methodology.
 ## **Team Members**
 ```
   --------------------------------------------------------------------------
-  **Name**        **Role**      **GitHub**         **Contributions**
+    Name            Role          GitHub             Contributions
   --------------- ------------- ------------------ -------------------------
   Vansh, Jay      Scrum Master  \@vaanshu,         Facilitation,
   Goyal                         \@JG10-WEB         documentation
@@ -52,7 +52,7 @@ methodology.
 ## **Sprint Timeline**
 ```
   ------------------------------------------------------------------------
-  **Phase**       **Days**        **Activities**
+    Phase           Days            Activities
   --------------- --------------- ----------------------------------------
   Planning        Day 1           Team formation, topic selection
 
