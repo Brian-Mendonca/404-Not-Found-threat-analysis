@@ -11,7 +11,7 @@ Ransomware-as-a-Service, completed during a 2-week sprint using Agile
 methodology.
 
 ## **Team Members**
-
+```
   --------------------------------------------------------------------------
   **Name**        **Role**      **GitHub**         **Contributions**
   --------------- ------------- ------------------ -------------------------
@@ -27,7 +27,7 @@ methodology.
   Abdiel B        GitHub Lead   \@Brian-Mendonca   Repository, diagrams
   Mendonca                                         
   --------------------------------------------------------------------------
-
+```
 
 ## **Repository Structure**
 
