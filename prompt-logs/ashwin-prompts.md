@@ -257,3 +257,118 @@ Described UEBA as creating a baseline of normal activity and detecting intent ev
 **Quality Assessment:**  
 **Rating:** Excellent  
 **Why:** Provided the logic for the Future-Proofing section.
+
+**How I Used This:**  
+**Report Section:** 4.6 Future-Proofing: AI & UEBA  
+**Specific Use:** Wrote the AI-driven anomaly detection explanation.
+
+**Verification:**  
+**How Verified:** Cross-referenced with industry definitions  
+**Accuracy:** Yes
+
+---
+
+## Prompt 10
+
+**Date:** 07/02/2026  
+**AI Tool:** Gemini Pro  
+
+**Purpose:**  
+To detail data exfiltration signs.
+
+**Prompt Used:**  
+What are the network signs of data exfiltration in a double-extortion ransomware attack? What times are most suspicious?
+
+**Response Summary:**  
+Highlighted unusual outbound traffic spikes during off-hours (2 AM–4 AM, weekends) and use of tools like Rclone.
+
+**Quality Assessment:**  
+**Rating:** Good  
+**Why:** Added realistic timing context to detection rules.
+
+**How I Used This:**  
+**Report Section:** 4.2.1 Network Anomalies  
+**Specific Use:** Added the unusual outbound traffic indicator.
+
+**Verification:**  
+**How Verified:** N/A  
+**Accuracy:** Yes
+
+---
+
+## Prompt 11
+
+**Date:** 06/02/2026  
+**AI Tool:** Gemini  
+
+**Purpose:**  
+To solve false positives caused by backup software.
+
+**Prompt Used:**  
+How do I reduce false positives for vssadmin delete shadows alerts caused by legitimate backup solutions like Veeam? Explain whitelisting by parent process.
+
+**Response Summary:**  
+Recommended suppressing alerts when the parent image is a known backup executable and the user is a service account. Warned to alert immediately if the parent is `cmd.exe`.
+
+**Quality Assessment:**  
+**Rating:** Excellent  
+**Why:** Enabled practical alert tuning beyond basic detection.
+
+**How I Used This:**  
+**Report Section:** 4.6.1 Filtering Operational Noise  
+**Specific Use:** Wrote the whitelisting-by-parent-process strategy.
+
+**Verification:**  
+**How Verified:** Checked SIEM logic documentation  
+**Accuracy:** Yes
+
+---
+
+## Prompt 12
+
+**Date:** 07/02/2026  
+**AI Tool:** Gemini  
+
+**Purpose:**  
+To detect C2 traffic despite encryption.
+
+**Prompt Used:**  
+Can Zeek detect C2 traffic if it uses HTTPS? Explain JA3 fingerprinting and beaconing jitter analysis.
+
+**Response Summary:**  
+Explained that JA3 fingerprints SSL clients and jitter analysis detects mechanical beacon timing without decrypting traffic.
+
+**Quality Assessment:**  
+**Rating:** Excellent  
+**Why:** Provided two concrete technical methods (JA3 and jitter).
+
+**How I Used This:**  
+**Report Section:** 4.6.2 Analyzing Encrypted Traffic  
+**Specific Use:** Drafted JA3 fingerprinting and beaconing jitter explanations.
+
+**Verification:**  
+**How Verified:** N/A (Standard network security concepts)  
+**Accuracy:** Yes
+
+---
+
+## My Best Prompts
+
+**Most Effective:** Prompt 7 – Sysmon Configuration  
+**Why it Worked:** Requested an exact XML configuration block, producing an immediately usable artifact for Appendix A.
+
+**Most Improved:** Prompt 3 – RDP Logon Types  
+**How it Evolved:** Refined from a broad Event ID query to constraint-based filtering, significantly improving detection fidelity.
+
+---
+
+## Lessons Learned
+
+**What Worked:**
+- Requesting specific artifacts (Event IDs, command-line arguments, logon types)
+- Comparative prompts (Sysmon vs Zeek)
+- Constraint-based refinement to reduce false positives
+
+**What Didn’t Work:**
+- Broad discovery questions without attack-phase context
+- Detection logic that ignored operational noise and false positives
