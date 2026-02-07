@@ -10,7 +10,6 @@ Sprint: 30/01/2026 to 12/02/2026
 
 Facilitator: Vansh
 
----
 
 ## KEEP - What Went Well
 
@@ -31,7 +30,6 @@ Facilitator: Vansh
 
 **Evidence:** Continuous updates without conflicts
 
----
 
 ## STOP - What Didn't Work
 
@@ -43,7 +41,6 @@ Facilitator: Vansh
 
 **Root Cause:** Scheduling conflicts over the weekend
 
----
 
 ## START - What to Try
 
@@ -55,16 +52,14 @@ Facilitator: Vansh
 
 **How to Measure:** Drafts ready by mid-sprint
 
----
 
 ## Action Items
-
-| # | Action | Owner | Success Measure |
-| --- | --- | --- | --- |
-| 1 | Set draft deadlines earlier | Vansh | Drafts by day 5 |
-| 2 | Regular progress check-ins | Team | Daily Updates |
-| 3 | Earlier consolidation | GitHub Lead | Fewer last-day changes |
-
+```
+| # | Action                      | Owner       | Success Measure        |
+| 1 | Set draft deadlines earlier | Vansh       | Drafts by day 5        |
+| 2 | Regular progress check-ins  | Team        | Daily Updates          |
+| 3 | Earlier consolidation       | Abdiel      | Fewer last-day changes |
+```
 ## Individual Reflections
 
 **Vansh:** "Learned how Agile documentation helps manage group projects."
@@ -77,7 +72,6 @@ Facilitator: Vansh
 
 **Abdiel:** "Gained experience managing collaborative repositories."
 
----
 
 ## Team Commitment
 
