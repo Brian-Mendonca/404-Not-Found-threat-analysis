@@ -1,6 +1,6 @@
 ## Personal Information
 
-**Name:** Abdiel Brian Mendonca
+**Name:** Abdiel Brian Mendonca  
 **Team:** 404 Not Found  
 **Role:** GitHub Lead / Defense Analyst (Mitigation Strategies)  
 **Total Prompts:** 6  
