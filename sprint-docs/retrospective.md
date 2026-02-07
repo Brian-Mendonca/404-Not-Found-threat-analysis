@@ -56,6 +56,7 @@ Facilitator: Vansh
 ## Action Items
 ```
 | # | Action                      | Owner       | Success Measure        |
+| - | --------------------------- | ----------- | ---------------------- |
 | 1 | Set draft deadlines earlier | Vansh       | Drafts by day 5        |
 | 2 | Regular progress check-ins  | Team        | Daily Updates          |
 | 3 | Earlier consolidation       | Abdiel      | Fewer last-day changes |
