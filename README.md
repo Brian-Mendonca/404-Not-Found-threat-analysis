@@ -113,5 +113,3 @@ The main output is a threat intelligence report covering how RaaS works, real in
   Final           Days 13-14      Polish, export, Git push
   ------------------------------------------------------------------------
 ```
-
-For full details, read report/threat-report.pdf.
