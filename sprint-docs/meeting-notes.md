@@ -1,4 +1,4 @@
-## MEETING NOTES
+##  SPRINT MEETING NOTES
 
 ## Sprint Planning - Day 1
 
